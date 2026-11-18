@@ -1,0 +1,108 @@
+{
+  "title": "Karácsony",
+  "start": "1",
+  "scenes": [
+    {
+      "id": "1",
+      "title": "Kezdés",
+      "level": 0,
+      "ending": false,
+      "text": "Karácsony van.",
+      "media": "1.jpg",
+      "choices": [
+        {
+          "label": "Családi Ebéd",
+          "next": "2"
+        },
+        {
+          "label": "Családi Ebéd",
+          "next": "2"
+        },
+        {
+          "label": "Találkozás a haverokkal",
+          "next": "2"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Ebéd",
+      "level": 0,
+      "ending": false,
+      "text": "Családi ebéd!\r\nMit eszel?",
+      "media": "2.jpg",
+      "choices": [
+        {
+          "label": "Töltött Káposzta",
+          "next": "3"
+        },
+        {
+          "label": "Halászlé",
+          "next": "4"
+        },
+        {
+          "label": "Semmit",
+          "next": "3"
+        },
+        {
+          "label": "Politizálsz",
+          "next": "7"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Süti",
+      "level": 0,
+      "ending": false,
+      "text": "Túl sokat ettél:\r\n\r\n****************************\r\n******Meghaltál************\r\n****************************\r\n\r\nBoldog Karácsonyt!!!",
+      "media": "5.jpg",
+      "choices": []
+    },
+    {
+      "id": "3",
+      "title": "Töltött Káposzta",
+      "level": 0,
+      "ending": false,
+      "text": "A töltött káposztát választottad.\r\nOlyan sokat ettél hogy kifeküdtél tőle.\r\nFelkelsz.\r\nMit csinálsz?",
+      "media": "3.jpg",
+      "choices": [
+        {
+          "label": "Eszek sütit",
+          "next": "5"
+        },
+        {
+          "label": "Nem eszek semmit ugyanis nem tudok",
+          "next": "6"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Halászlé",
+      "level": 0,
+      "ending": true,
+      "text": "Halászlét ettél és a torkodon akadtt egy szálka:\r\n\r\n****************************\r\n******Meghaltál************\r\n****************************\r\n\r\nBoldog Karácsonyt!!!",
+      "media": "4.jpg",
+      "choices": []
+    },
+    {
+      "id": "6",
+      "title": "Jó Vég",
+      "level": 0,
+      "ending": true,
+      "text": "Túléltél egy újabb családi ebédet!!!\r\n\r\n*************************************\r\n***********Boldog karácsonyt******\r\n*************************************",
+      "media": "6.jpg",
+      "choices": []
+    },
+    {
+      "id": "7",
+      "title": "Politizálás",
+      "level": 0,
+      "ending": true,
+      "text": "****************************\r\n******Meghaltál************\r\n****************************",
+      "media": "7.jpg",
+      "choices": []
+    }
+  ]
+}
